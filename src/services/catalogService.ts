@@ -1,5 +1,5 @@
-import catalogData from "../data/catalog.json"
-import { CatalogItem } from "../models/catalogItem"
+import catalogData from "../data/catalog.json";
+import { CatalogItem } from "../models/catalogItem";
 
 const catalog: CatalogItem[] = catalogData;
 
