@@ -1,0 +1,29 @@
+{
+  "name": "mrd-search-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Search & discovery API with simulated upstream availability/pricing",
+  "main": "dist/server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "5.0.6",
+    "@types/node": "26.6.4",
+    "@types/supertest": "7.2.1",
+    "supertest": "7.2.1",
+    "tsx": "^4.16.0",
+    "typescript": "7.0.2",
+    "vitest": "4.1.11"
+  }
+}
