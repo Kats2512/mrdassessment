@@ -1,0 +1,344 @@
+[
+    {
+        "id": 1,
+        "name": "Classic Cheeseburger",
+        "restaurant": "Burger Shack",
+        "category": "Burgers",
+        "description": "Beef patty, cheddar, pickles, house sauce",
+        "basePrice": 89,
+        "popularity": 92
+    },
+    {
+        "id": 2,
+        "name": "Double Macon Burger",
+        "restaurant": "Burger Shack",
+        "category": "Burgers",
+        "description": "Two beef patties, crispy macon, smoked cheddar",
+        "basePrice": 119,
+        "popularity": 88
+    },
+    {
+        "id": 3,
+        "name": "Chicken Burger",
+        "restaurant": "Flame Grill",
+        "category": "Burgers",
+        "description": "Grilled chicken breast, lettuce, peri-peri mayo",
+        "basePrice": 85,
+        "popularity": 76
+    },
+    {
+        "id": 4,
+        "name": "Veggie Burger",
+        "restaurant": "Green Bun",
+        "category": "Burgers",
+        "description": "Black bean patty, avocado, tomato",
+        "basePrice": 79,
+        "popularity": 58
+    },
+    {
+        "id": 5,
+        "name": "Mushroom Swiss Burger",
+        "restaurant": "Burger Shack",
+        "category": "Burgers",
+        "description": "Beef patty, sauteed mushrooms, Swiss cheese",
+        "basePrice": 99,
+        "popularity": 64
+    },
+    {
+        "id": 6,
+        "name": "Margherita Pizza",
+        "restaurant": "Napoli Oven",
+        "category": "Pizza",
+        "description": "Tomato, mozzarella, fresh basil",
+        "basePrice": 95,
+        "popularity": 90
+    },
+    {
+        "id": 7,
+        "name": "Beef Pepperoni Pizza",
+        "restaurant": "Napoli Oven",
+        "category": "Pizza",
+        "description": "Halal beef pepperoni, mozzarella, tomato base",
+        "basePrice": 109,
+        "popularity": 95
+    },
+    {
+        "id": 8,
+        "name": "BBQ Chicken Pizza",
+        "restaurant": "Pizza Palace",
+        "category": "Pizza",
+        "description": "BBQ sauce, chicken, red onion, mozzarella",
+        "basePrice": 119,
+        "popularity": 81
+    },
+    {
+        "id": 9,
+        "name": "Four Cheese Pizza",
+        "restaurant": "Napoli Oven",
+        "category": "Pizza",
+        "description": "Mozzarella, gorgonzola, parmesan, cheddar",
+        "basePrice": 115,
+        "popularity": 67
+    },
+    {
+        "id": 10,
+        "name": "Tropical Macon & Pineapple Pizza",
+        "restaurant": "Pizza Palace",
+        "category": "Pizza",
+        "description": "Crispy macon strips, pineapple, mozzarella",
+        "basePrice": 105,
+        "popularity": 55
+    },
+    {
+        "id": 11,
+        "name": "Salmon Nigiri (6 pc)",
+        "restaurant": "Sushi Zen",
+        "category": "Sushi",
+        "description": "Fresh salmon on seasoned rice",
+        "basePrice": 99,
+        "popularity": 85
+    },
+    {
+        "id": 12,
+        "name": "California Roll (8 pc)",
+        "restaurant": "Sushi Zen",
+        "category": "Sushi",
+        "description": "Crab stick, avocado, cucumber",
+        "basePrice": 89,
+        "popularity": 79
+    },
+    {
+        "id": 13,
+        "name": "Dragon Roll (8 pc)",
+        "restaurant": "Sushi Zen",
+        "category": "Sushi",
+        "description": "Prawn tempura, avocado, eel sauce",
+        "basePrice": 135,
+        "popularity": 72
+    },
+    {
+        "id": 14,
+        "name": "Sushi Platter for Two",
+        "restaurant": "Tokyo Bay",
+        "category": "Sushi",
+        "description": "Assorted nigiri and rolls, 24 pieces",
+        "basePrice": 289,
+        "popularity": 69
+    },
+    {
+        "id": 15,
+        "name": "Vegetable Maki (6 pc)",
+        "restaurant": "Tokyo Bay",
+        "category": "Sushi",
+        "description": "Cucumber, carrot, avocado",
+        "basePrice": 65,
+        "popularity": 40
+    },
+    {
+        "id": 16,
+        "name": "Butter Chicken",
+        "restaurant": "Spice Route",
+        "category": "Curry",
+        "description": "Creamy tomato curry with tender chicken",
+        "basePrice": 125,
+        "popularity": 89
+    },
+    {
+        "id": 17,
+        "name": "Lamb Rogan Josh",
+        "restaurant": "Spice Route",
+        "category": "Curry",
+        "description": "Slow-cooked lamb in a spiced gravy",
+        "basePrice": 145,
+        "popularity": 70
+    },
+    {
+        "id": 18,
+        "name": "Durban Bunny Chow",
+        "restaurant": "Curry Corner",
+        "category": "Curry",
+        "description": "Chicken curry served in a hollowed-out loaf",
+        "basePrice": 99,
+        "popularity": 93
+    },
+    {
+        "id": 19,
+        "name": "Paneer Tikka Masala",
+        "restaurant": "Spice Route",
+        "category": "Curry",
+        "description": "Grilled paneer in a rich masala sauce",
+        "basePrice": 109,
+        "popularity": 52
+    },
+    {
+        "id": 20,
+        "name": "Prawn Curry",
+        "restaurant": "Curry Corner",
+        "category": "Curry",
+        "description": "Coastal-style prawn curry with rice",
+        "basePrice": 155,
+        "popularity": 61
+    },
+    {
+        "id": 21,
+        "name": "Caesar Salad",
+        "restaurant": "Fresh Fields",
+        "category": "Healthy",
+        "description": "Cos lettuce, parmesan, croutons, chicken",
+        "basePrice": 79,
+        "popularity": 60
+    },
+    {
+        "id": 22,
+        "name": "Quinoa Power Bowl",
+        "restaurant": "Fresh Fields",
+        "category": "Healthy",
+        "description": "Quinoa, roasted veg, chickpeas, tahini",
+        "basePrice": 95,
+        "popularity": 57
+    },
+    {
+        "id": 23,
+        "name": "Greek Salad",
+        "restaurant": "Green Bun",
+        "category": "Healthy",
+        "description": "Feta, olives, cucumber, tomato",
+        "basePrice": 69,
+        "popularity": 48
+    },
+    {
+        "id": 24,
+        "name": "Grilled Chicken Wrap",
+        "restaurant": "Flame Grill",
+        "category": "Healthy",
+        "description": "Grilled chicken, hummus, salad in a wholewheat wrap",
+        "basePrice": 75,
+        "popularity": 63
+    },
+    {
+        "id": 25,
+        "name": "Acai Bowl",
+        "restaurant": "Fresh Fields",
+        "category": "Healthy",
+        "description": "Acai, banana, granola, seasonal fruit",
+        "basePrice": 85,
+        "popularity": 45
+    },
+    {
+        "id": 26,
+        "name": "Chocolate Lava Cake",
+        "restaurant": "Sweet Tooth",
+        "category": "Desserts",
+        "description": "Warm chocolate cake with a molten centre",
+        "basePrice": 59,
+        "popularity": 86
+    },
+    {
+        "id": 27,
+        "name": "Milk Tart Slice",
+        "restaurant": "Sweet Tooth",
+        "category": "Desserts",
+        "description": "Traditional South African milk tart",
+        "basePrice": 39,
+        "popularity": 74
+    },
+    {
+        "id": 28,
+        "name": "New York Cheesecake",
+        "restaurant": "Sweet Tooth",
+        "category": "Desserts",
+        "description": "Baked cheesecake with berry compote",
+        "basePrice": 55,
+        "popularity": 68
+    },
+    {
+        "id": 29,
+        "name": "Malva Pudding",
+        "restaurant": "Sweet Tooth",
+        "category": "Desserts",
+        "description": "Sticky apricot pudding with custard",
+        "basePrice": 49,
+        "popularity": 77
+    },
+    {
+        "id": 30,
+        "name": "Ice Cream Sundae",
+        "restaurant": "Cold Stone Corner",
+        "category": "Desserts",
+        "description": "Vanilla ice cream, chocolate sauce, nuts",
+        "basePrice": 45,
+        "popularity": 59
+    },
+    {
+        "id": 31,
+        "name": "Coca-Cola 440ml",
+        "restaurant": "Quick Mart",
+        "category": "Drinks",
+        "description": "Chilled can",
+        "basePrice": 19,
+        "popularity": 80
+    },
+    {
+        "id": 32,
+        "name": "Still Water 500ml",
+        "restaurant": "Quick Mart",
+        "category": "Drinks",
+        "description": "Spring water",
+        "basePrice": 15,
+        "popularity": 50
+    },
+    {
+        "id": 33,
+        "name": "Fresh Orange Juice",
+        "restaurant": "Fresh Fields",
+        "category": "Drinks",
+        "description": "Freshly squeezed, 400ml",
+        "basePrice": 39,
+        "popularity": 54
+    },
+    {
+        "id": 34,
+        "name": "Vanilla Milkshake",
+        "restaurant": "Burger Shack",
+        "category": "Drinks",
+        "description": "Thick shake with whipped cream",
+        "basePrice": 49,
+        "popularity": 71
+    },
+    {
+        "id": 35,
+        "name": "Iced Coffee",
+        "restaurant": "Bean There",
+        "category": "Drinks",
+        "description": "Cold brew with milk and ice",
+        "basePrice": 42,
+        "popularity": 65
+    },
+    {
+        "id": 36,
+        "name": "Flat White",
+        "restaurant": "Bean There",
+        "category": "Drinks",
+        "description": "Double shot espresso with steamed milk",
+        "basePrice": 35,
+        "popularity": 62
+    },
+    {
+        "id": 37,
+        "name": "Peri-Peri Chicken Quarter",
+        "restaurant": "Flame Grill",
+        "category": "Chicken",
+        "description": "Flame-grilled, with chips",
+        "basePrice": 89,
+        "popularity": 91
+    },
+    {
+        "id": 38,
+        "name": "Hot Wings (10 pc)",
+        "restaurant": "Flame Grill",
+        "category": "Chicken",
+        "description": "Crispy wings tossed in hot sauce",
+        "basePrice": 99,
+        "popularity": 78
+    }
+]
