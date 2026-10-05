@@ -1,0 +1,161 @@
+:root {
+    --bg-main: #f0f4f8;
+    /* Light Slate/Ice Background */
+    --card-bg: #ffffff;
+    /* Crisp White Cards */
+    --card-border: #cbd5e1;
+    /* Subtle Slate Border */
+    --accent-sapphire: #0f4c81;
+    /* True Deep Sapphire Blue */
+    --accent-hover: #0a355c;
+    /* Darker Sapphire Hover */
+    --accent-cyan: #0284c7;
+    /* Bright Sapphire Highlight */
+    --text-main: #0f172a;
+    /* Deep Slate Text */
+    --text-muted: #64748b;
+    /* Cool Muted Text */
+    --icon-bg: #e2e8f0;
+    /* Subtle Light Gray for Icon Banner */
+}
+
+body {
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+h1 {
+    color: var(--accent-sapphire);
+}
+
+/* Form Controls Customization */
+.form-control,
+.form-select {
+    background-color: #ffffff !important;
+    color: var(--text-main) !important;
+    border-color: var(--card-border) !important;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: var(--accent-sapphire) !important;
+    box-shadow: 0 0 0 0.25rem rgba(15, 76, 129, 0.2) !important;
+}
+
+/* Item Cards */
+.item-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.item-card:hover {
+    transform: translateY(-6px);
+    border-color: var(--accent-sapphire);
+    box-shadow: 0 12px 20px -5px rgba(15, 76, 129, 0.15);
+}
+
+.item-icon {
+    background-color: var(--icon-bg);
+    font-size: 3rem;
+    text-align: center;
+    padding: 1.25rem 0;
+}
+
+.desc-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: var(--text-muted);
+    font-size: 0.875rem;
+}
+
+.text-info {
+    color: var(--accent-cyan) !important;
+    font-weight: 600;
+}
+
+/* Pagination */
+.pagination .page-link {
+    background-color: var(--card-bg);
+    border-color: var(--card-border);
+    color: var(--accent-sapphire);
+}
+
+.pagination .page-link:hover {
+    background-color: #e2e8f0;
+    border-color: var(--accent-sapphire);
+    color: var(--accent-hover);
+}
+
+.pagination .page-item.active .page-link {
+    background-color: var(--accent-sapphire);
+    border-color: var(--accent-sapphire);
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.pagination .page-item.disabled .page-link {
+    background-color: var(--bg-main);
+    color: #94a3b8;
+    border-color: var(--card-border);
+}
+
+/* Typeahead Suggestions Menu */
+.typeahead-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #ffffff;
+    border: 1px solid var(--card-border);
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.15);
+    max-height: 320px;
+    overflow-y: auto;
+    margin-top: 4px;
+}
+
+.typeahead-item {
+    padding: 0.65rem 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f1f5f9;
+    transition: background-color 0.15s ease;
+}
+
+.typeahead-item:last-child {
+    border-bottom: none;
+}
+
+.typeahead-item:hover,
+.typeahead-item.active {
+    background-color: var(--accent-sapphire);
+    color: #ffffff;
+}
+
+.typeahead-item:hover .text-muted-custom,
+.typeahead-item.active .text-muted-custom {
+    color: #e2e8f0 !important;
+}
+
+.text-muted-custom {
+    color: var(--text-muted);
+}
+
+/* Empty State Card */
+.empty-state-card {
+    background: #ffffff;
+    border: 1px solid var(--card-border);
+    border-radius: 16px;
+    padding: 3rem 2rem;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+}
